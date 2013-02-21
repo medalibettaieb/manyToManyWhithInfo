@@ -17,6 +17,8 @@ import javax.persistence.OneToMany;
 public class Projet implements Serializable {
 
 	private int idProjet;
+
+	/** The name projet. */
 	private String nameProjet;
 
 	private List<Affectation> affectations;
